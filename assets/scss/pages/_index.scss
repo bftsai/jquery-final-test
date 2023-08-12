@@ -1,0 +1,33 @@
+.index{
+  .toTop{
+    font-size: 48px;
+    background-color: pink;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  .opacity{
+    background-color: #23222155;
+  }
+  .item1{
+    height: 346px;
+    background: url(../images/banner.png) center center no-repeat;
+    background-size: cover;
+    padding-top: 105px;
+  }
+  .item2{
+    height: 346px;
+    background: url(../images/bg_course.png) center center no-repeat;
+    background-size: cover;
+    padding-top: 105px;
+  }
+  .item3{
+    height: 346px;
+    background: url(../images/bg_index.png) center center no-repeat;
+    background-size: cover;
+    padding-top: 105px;
+  }
+  .card{
+    
+  }
+}

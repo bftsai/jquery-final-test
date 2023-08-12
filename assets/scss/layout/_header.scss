@@ -9,9 +9,19 @@
     }
 }
 .headerMenu{
-    a:hover{
-        border-bottom: 3px;
-        border-color: $primary;
+    width: 25.463%;
+    .py-2:hover{
         padding-bottom: 5px;
+        border-bottom: 3px solid $primary;
+    }
+    .active{
+        background: $primary;
+        color: #FFFFFF
+    }
+    .d-none{
+        background-color: #FFF;
+    }
+    .position-relative{
+        width: 100%;
     }
 }
