@@ -298,8 +298,8 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       #00cc99 !default; //customer $blue !default;
+$secondary:     #e33b88 !default; //customer $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -382,7 +382,7 @@ $enable-rfs:                  true !default;
 $enable-validation-icons:     true !default;
 $enable-negative-margins:     false !default;
 $enable-deprecation-messages: true !default;
-$enable-important-utilities:  true !default;
+$enable-important-utilities:  false !default;
 
 $enable-dark-mode:            true !default;
 $color-mode-type:             data !default; // `data` or `media-query`
@@ -412,9 +412,10 @@ $spacers: (
   0: 0,
   1: $spacer * .25,
   2: $spacer * .5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 3,
+  3: $spacer * .75,
+  4: $spacer,
+  5: $spacer * 1.5,
+  6: $spacer * 3,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -451,7 +452,7 @@ $body-emphasis-color:       $black !default;
 // Style anchor elements.
 
 $link-color:                              $primary !default;
-$link-decoration:                         underline !default;
+$link-decoration:                         none !default;//customer underline !default;
 $link-shade-percentage:                   20% !default;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
 $link-hover-decoration:                   null !default;
@@ -472,7 +473,7 @@ $icon-link-icon-transform:    translate3d(.25em, 0, 0) !default;
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
+$paragraph-margin-bottom:   0 !default; //customer 1rem !default;
 
 
 // Grid breakpoints

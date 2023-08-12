@@ -1,0 +1,17 @@
+.bg-gray{
+    background-color: #f6f6f6;
+    .fbIcon{
+        color: #4460a0;
+    }
+    .twIcon{
+        color: #00aaec;
+        border-color: #cccccc;
+    }
+}
+.headerMenu{
+    a:hover{
+        border-bottom: 3px;
+        border-color: $primary;
+        padding-bottom: 5px;
+    }
+}
