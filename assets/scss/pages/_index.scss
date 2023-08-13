@@ -1,5 +1,6 @@
 .index{
   .toTop{
+    z-index: 99999;
     font-size: 48px;
     background-color: pink;
     &:hover{
@@ -27,7 +28,9 @@
     background-size: cover;
     padding-top: 105px;
   }
-  .card{
-    
+  .box{
+    .col-4{
+      width: 32.0988%;
+    }
   }
 }
